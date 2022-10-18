@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+</head>
+
+<!--стилі початок-->
+<style>
+
+    table {
+        width: 500px;
+        height:250px;
+        margin: auto;
+    }
+
+    table,th,td {
+        border: 1px solid black;
+    }
+
+
+
+</style>
+<!--стилі кінець-->
+
+<body>
+
+<table >
+    <!--Заголовок початок-->
+    <thead>
+    <tr style="text-align: center">
+        <td  colspan="4"  style="background-color: dodgerblue" ><h3>MY FIRST TABLE</h3></td>
+    </tr>
+    </thead>
+    <!--Заголовок кінець-->
+
+    <!--Основне тіло початок-->
+    <tbody>
+
+    <tr>
+        <td style="background-color: dodgerblue">First cell</td>
+        <td style="background-color: dodgerblue" >Second cell</td>
+
+        <td style="background-color: yellow" rowspan="6">6 cells merged together</td>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="2" style="background-color: yellow">2 cells merged into one</td>
+
+    </tr>
+
+    <tr>
+        <td rowspan="3" style="background-color: yellow">1 st cell
+        3 rd row</td>
+
+        <td rowspan="3" style="background-color: yellow">2 st cell
+            3 rd row</td>
+
+    </tr>
+    </tbody>
+    <!--Основне тіло кінець-->
+
+    <!--підвал початок-->
+    <tfoot>
+    <tr style="text-align: center">
+        <td colspan="4" style="background-color: yellow">Do you like tables?</td>
+    </tr>
+    </tfoot>
+    <!--підвал кінець-->
+
+
+</table>
+
+
+</body>
+</html>
